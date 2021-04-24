@@ -1,0 +1,62 @@
+body {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  header,
+  main,
+  footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+  
+  header,
+  footer {
+    background-color: rgb(18, 71, 71);
+    color: white;
+    border-radius: 15px;
+  }
+  
+  header {
+    font-size: 25px;
+    text-align: left;
+    padding: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  main {
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;    
+  }
+  
+  footer a{
+      color:white
+  }
+  
+  h1 {
+    padding-left: 25px;
+  }
+  
+  h2 {
+    font-family: cursive;
+  }
+  
+  hr {
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
+  
+  #profilepicture {
+    height: 220px;
+    width: auto;
+    float: right;
+    margin-top: -15%;  
+    padding-right: 10px;  
+  }
