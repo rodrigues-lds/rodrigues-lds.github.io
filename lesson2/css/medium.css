@@ -1,0 +1,26 @@
+@media only screen and (min-width: 40.5em) {
+    main {
+      grid-template-columns: 1fr 1fr;
+      max-width: 70%;
+      display: grid;
+    }
+  
+    body {
+      margin: 1.25rem auto;
+    }
+  
+    header,
+    footer,
+    section {
+      border-radius: 12px;
+    }
+  
+    section {
+      margin: 10px;
+    }
+  
+    section:nth-child(3) {
+      grid-column: span 2;
+    }
+  }
+  
