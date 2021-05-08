@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em) {
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  header,
+  footer {
+    border-radius: 12px;
+  }
+
+  header img {
+    float: right;
+    box-shadow: -5px 20px 25px gray;
+  }
+}
