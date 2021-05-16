@@ -1,0 +1,36 @@
+@media only screen and (min-width: 60em) {
+    nav ul {
+      display: flex;
+    }
+  
+    nav ul li {
+      flex: 1 1 100%;
+    }
+  
+    header img {
+      float: left;
+      max-width: 160px;
+    }
+  
+    header {
+      text-align: left;
+    }
+  
+    .heading {
+      margin-left: 12%;
+    }
+  
+    .navigation {
+      display: flex;
+    }
+  
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+  }
+  
