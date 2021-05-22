@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lesson 05 - Preston Town Page" />
+    <link rel="stylesheet" href="/lesson5/css/normalize.css">
+    <link rel="stylesheet" href="/lesson5/css/small.css">
+    <link rel="stylesheet" href="/lesson5/css/medium.css">
+    <link rel="stylesheet" href="/lesson5/css/large.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Oxygen:wght@300&family=Raleway:wght@200&display=swap" />
+    <title>Weather Site Portal</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <img src="/lesson5/images/weatherlogo.png" alt="Weather Seer Logo" />
+        <section class="heading">
+            <h1>The Weather Seer</h1>
+            <h2>"Check the weather and be good!"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="/lesson5/preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2 class="containertitle">Preston Idaho</h2>
+        <section class="herodiv">
+            <div class="hero-ph">
+                <img src="/lesson5/images/sunny.jpg" alt="sunny day">
+            </div>
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>High: 80 F <br> High: 50 F <br> Humility: 70% <br> Currently: Sunny </p>
+            </section>
+        </section>
+
+        <section class="fivedayforecast">
+            <h2 class="containertitle"> Five Day Forecast</h2>
+            <section class="forecast">
+                <div class="day" id="monday">
+                    <h4> Monday</h4>
+                    <hr>
+                    <p> High: 80F<br>Low: 50F<br>Sunny</p>
+                </div>
+                <div class="day" id="tuesday">
+                    <h4> Tuesday</h4>
+                    <hr>
+                    <p> High: 80F<br>Low: 50F<br>Sunny</p>
+                </div>
+                <div class="day" id="wednesday">
+                    <h4> Wedneday</h4>
+                    <hr>
+                    <p> High: 80F<br>Low: 50F<br>Sunny</p>
+                </div>
+                <div class="day" id="thursday">
+                    <h4> Thursday</h4>
+                    <hr>
+                    <p> High: 80F<br>Low: 50F<br>Sunny</p>
+                </div>
+                <div class="day" id="friday">
+                    <h4> Friday</h4>
+                    <hr>
+                    <p> High: 80F<br>Low: 50F<br>Sunny</p>
+                </div>
+            </section>            
+        </section>
+
+        <section class="article">
+            <h2 class="containertitle">Article</h2>
+            <img class="articleimage" src="/lesson5/images/surf.jpg" alt="surfing on beach">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry's standard dummy
+                text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry's standard dummy
+                text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages.</p>
+        </section>
+
+        <section class="contactinfocontainer">
+            <h2 class="containertitle">Contact Information</h2>
+            <section class="contact">
+                <img class="googlemaps" src="/lesson5/images/maps.jpg" alt="Preston Idaho">
+                <div class="contactcard">
+                    Preston, ID 83263 - USA <br> +1 111-222-333 <br> contact@theweatherseer.com <br>
+                    <section class="socialmedia">
+                        <a href="http://www.facebook.com/"><img class="socialmediaicon" src="/lesson5/images/facebook-32.png" alt="Facebook"></a>
+                        <a href="http://www.twitter.com/"><img class="socialmediaicon" src="/lesson5/images/twitter-32.png" alt="Twitter"></a>
+                        <a href="http://www.Instagram.com/"><img class="socialmediaicon" src="/lesson5/images/instagram-32.png" alt="Instagram"></a>
+                    </section>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            The Weather Seer &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+    </footer>
+    <script src="/lesson5/js/script.js"></script>
+</body>
+
+</html>
