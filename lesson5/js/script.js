@@ -37,7 +37,7 @@ function toggleMenu() {
     .classList.toggle("responsive");
 }
 
-if (daylist[day] == 'Saturday') {  
+if (daylist[day] == 'Friday') {  
   document.getElementById("advertising").style.display = "initials";
 }
 else {
