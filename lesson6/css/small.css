@@ -1,0 +1,258 @@
+body {
+  margin: 1.25rem auto;
+  max-width: 2048px;
+  line-height: 1.5;
+  font-size: 20px;
+  background-color: #f4f2ec;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: #134355;
+  color: #f4f2ec;
+}
+
+header {
+  margin-bottom: -8px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+header h2 {
+  font-size: 0.9em;
+  letter-spacing: 0;
+  margin-top: -28px;
+  padding-bottom: 28px;
+}
+
+footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+img {
+  max-width: 110px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+}
+
+main {
+  font-family: "Oxygen", sans-serif;
+  padding-top: 12px;
+  padding-bottom: 48px;
+  padding-right: 48px;
+  padding-left: 48px;
+  background-color: #eff3f3;
+}
+
+main h2 {
+  text-align: center;
+}
+
+footer {
+  margin-top: -5px;
+}
+
+footer a {
+  color: white;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+h4 {
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+hr {
+  margin: 0px;
+}
+
+nav {
+  background-color: #0e3746;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: #f4f2ec;
+  text-align: center;
+  padding: 1rem;
+}
+
+.navigation a:hover {
+  background-color: #be2623;
+  color: #f4f2ec;
+}
+
+.navigation ul li.active{
+  background-color:#be2623;
+  color: #f4f2ec;             
+}
+
+.active{
+  background-color:#5f1110;
+  color: #f4f2ec;  
+}
+
+.responsive li {
+  display: block;
+}
+
+.hero-ph img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit:cover;
+  padding: 0px;
+}
+
+.hero-ph {
+  background-color: #eee;
+  border: 1px solid #134355;
+}
+
+.weathersummary {
+  color: white;
+  background-color: #134355;
+  padding: 0.5rem;
+  padding-left: 50px;
+  padding-right: 50px;  
+  line-height: 1;
+}
+
+.weathersummary h2{
+  text-decoration: underline;
+}
+
+.containertitle {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.forecast {
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.forcast p {
+  margin-bottom: 10px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.day {
+  flex: 1 1 auto;
+  margin: 5px;
+  background-color: #134355;
+  padding-bottom: 18px;
+}
+
+.fivedayforecast,
+.articleimage {
+  display: none;
+}
+
+.article {
+  background-color: #ebedee;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.articleimage {  
+  float: right;
+  padding-left: 30px;
+}
+
+#advertising {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px; 
+  background-color: #be2623;
+}
+
+.contactinfocontainer{  
+  color: white;
+  background-color: #134355;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  display: block;
+}
+
+.contactcard {  
+  flex: 1 1 auto;
+  display: block; 
+  padding-top: 10px;  
+}
+
+.googlemaps{
+  display: none;
+  padding: 0px;
+}
+
+.socialmedia {
+  margin-top: 50px;
+}
+
+.socialmediaicon{
+  display: inline;
+  padding: 8px;
+  background-color: white;
+  border-radius: 30%;
+  max-width: 100px;
+}
+
+
+
