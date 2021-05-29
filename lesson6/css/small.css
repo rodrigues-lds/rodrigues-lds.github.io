@@ -143,7 +143,7 @@ nav ul {
   height: 100%;
   width: 100%;
   max-width: 100%;
-  object-fit:cover;
+  object-fit:fill;
   padding: 0px;
 }
 

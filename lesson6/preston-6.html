@@ -42,8 +42,13 @@
         <h2 class="containertitle">Preston Idaho</h2>
         <div class="herodiv">
             <div class="hero-ph">
-                <img src="/lesson6/images/sunny.jpg" alt="sunny day">
+                <picture>
+                    <source media="(max-width: 647px)" srcset="/lesson6/images/smallbanner.jpg">
+                    <source media="(max-width: 959px)" srcset="/lesson6/images/mediumbanner.jpg">
+                    <img src="/lesson6/images/largebanner.jpg" alt="Beautiful sunny Day">
+                </picture>
             </div>
+
             <section class="weathersummary">
                 <h2>Weather Summary</h2>
                 <p>Currently: Rainy</p>
@@ -157,9 +162,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
-        google: {
-            families: ['Raleway', 'Oxygen']
-        }
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
         });
     </script>
 </body>
