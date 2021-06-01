@@ -1,0 +1,26 @@
+body {
+  background-color: #f4f2ec;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+main {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  transition: filter 1s;  
+}
