@@ -259,7 +259,7 @@ nav ul {
 #gallery_container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 15px;
+  gap: 24px;
 }
 
 #gallery_container figure {
@@ -272,7 +272,29 @@ nav ul {
   text-align: center;
 }
 
+#gallery_container figure:hover {
+  box-shadow: 0 0 50px #000305;
+}
+
 .gallery_image {
   max-width: 100%;
   padding: 0px;
+}
+
+#gallery_container figure {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+figcaption {
+  padding: 18px;
+  background-color: #ffffff;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  transition: filter 1s;  
 }
