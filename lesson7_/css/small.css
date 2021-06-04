@@ -256,6 +256,10 @@ nav ul {
 
 /* Gallery */
 
+.main_gallery {
+  margin-bottom: 48px;
+}
+
 #gallery_container {
   display: grid;
   grid-template-columns: 1fr;
@@ -296,5 +300,5 @@ img[data-src] {
 }
 
 img {
-  transition: filter 1s;  
+  transition: filter 1s;
 }
