@@ -1,0 +1,25 @@
+@media only screen and (min-width: 40.5em) {
+  header img {
+    max-width: 180px;
+  }
+
+  .fivedayforecast,
+  .articleimage {
+    display: initial;
+  }
+
+  .articleimage {
+    max-width: 230px;
+  }
+
+  .googlemaps {
+    max-width: 95%;
+    display: initial;
+  }
+
+  /* Gallery */
+  
+  #gallery_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

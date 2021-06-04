@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lesson 07 - Gallery" />
+    <link rel="stylesheet" href="/lesson7_/css/normalize.css">
+    <link rel="stylesheet" href="/lesson7_/css/small.css">
+    <link rel="stylesheet" href="/lesson7_/css/medium.css">
+    <link rel="stylesheet" href="/lesson7_/css/large.css" />
+    <title>Weather Site Portal</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <img src="/lesson7_/images/weatherlogo.png" alt="Weather Seer Logo" />
+        <section class="heading">
+            <h1>The Weather Seer</h1>
+            <h2>"Check the weather and be good!"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a class="active" href="/lesson7_/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Weather Gallery</h2>
+        <div id="gallery_container">
+            <figure>
+                <img class="gallery_image" alt="Cloudy" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_cloudy.jpg">
+                <figcaption>A cloudy day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Cold" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_cold.jpg">
+                <figcaption>A cold day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Fall" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_fall.jpg">
+                <figcaption>A fall day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Rainy" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_rainy.jpg">
+                <figcaption>A rainy day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Snow" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_snow.jpg">
+                <figcaption>A snow day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Spring" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_spring.jpg">
+                <figcaption>A spring day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Summer" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_summer.jpg">
+                <figcaption>A summer day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Thunder" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_thunder.jpg">
+                <figcaption>A thunder over the city</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Tornado" src="/lesson7_/images/placeholderwide.jpg"
+                    data-src="/lesson7_/images/g_tornado.jpg">
+                <figcaption>A tornado destroying everything</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            The Weather Seer &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+    </footer>
+
+    <script src="/lesson7_/js/progressiveload.js"></script>
+    <script src="/lesson7_/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>
