@@ -15,18 +15,19 @@ caption {
   font-weight: bold;  
   padding: 6px;
   background-color: #7fb9c2;
+  border: solid 1.0px #cdcdcd;
 }
 
 th {
   padding: 6px;
-  border: solid 1.5px #cdcdcd;
+  border: solid 1.0px #cdcdcd;
   color: #ffffff;
   background-color: #628ca6;
 }
 
 td {
   padding: 5px;
-  border: solid 1.5px #cdcdcd;
+  border: solid 1.0px #cdcdcd;
 }
 
 tr:nth-child(even) {
