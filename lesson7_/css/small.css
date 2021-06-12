@@ -276,9 +276,7 @@ nav ul {
   text-align: center;
 }
 
-#gallery_container figure:hover {
-  box-shadow: 0 0 50px #000305;
-}
+
 
 .gallery_image {
   max-width: 100%;
