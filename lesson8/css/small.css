@@ -301,7 +301,7 @@ img {
 
 /*Storm Page */
 
-#main_storm {
+.main_storm {
   padding: 0px;
   padding-bottom: 30px;
 }
@@ -319,6 +319,7 @@ form fieldset {
 form legend {
   color: #134355;
   padding: 12px;
+  font-weight: bold;
 }
 
 form label {
@@ -338,14 +339,6 @@ form label.aboutstorm input,
   width: 100%;
   max-width: 95%;
   background-color: white;
-}
-
-form label.aboutyou input:required:valid {
-  border-left: green solid 5px;
-}
-
-form label.aboutyou input:required {
-  border-left: red solid 5px;
 }
 
 form label.radios {
@@ -384,4 +377,9 @@ form input.submitButton:hover {
 #stormRegion {
   margin-top: 12px;
   max-width: 96%;
+}
+
+/* Thanks page */
+.main_thanks {
+  background-color: #ccdce2;
 }
