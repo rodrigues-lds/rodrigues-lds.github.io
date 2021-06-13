@@ -301,41 +301,40 @@ img {
 
 /*Storm Page */
 
-#main_storm{
+#main_storm {
   padding: 0px;
   padding-bottom: 30px;
 }
 
-form {  
+form {
   margin: auto;
 }
 
 form fieldset {
   margin: 32px;
   border: 1px solid #134355;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 form legend {
   color: #134355;
-  padding: 12px;  
+  padding: 12px;
 }
 
-form label
-{
+form label {
   display: block;
-  padding-top: 18px;  
-  font-size: 16px;  
+  padding-top: 18px;
+  font-size: 16px;
 }
 
 form label.aboutyou input,
-form label.aboutstorm input, 
+form label.aboutstorm input,
 #comments,
 #stormRegion {
-  display: block; 
+  display: block;
   border: solid 1px #000;
   border-radius: 4px;
-  padding: 0.5rem;  
+  padding: 0.5rem;
   width: 100%;
   max-width: 95%;
   background-color: white;
@@ -364,22 +363,25 @@ form input.submitButton {
   font-size: 22px;
   border-radius: 18px;
   padding: 15px 50px;
-  max-width: 300px;  
-  text-align: center;  
+  max-width: 300px;
+  text-align: center;
   background-color: #134355;
   color: #f4f2ec;
 }
 
-form input.submitButton:hover {  
-  background-color: #be2623;  
+form input.submitButton:hover {
+  background-color: #be2623;
 }
 
 #comments {
-  height: 100px;;
+  height: 100px;
 }
 
-#stormRegion{  
+.comentario {
+  margin-top: 30px;
+}
+
+#stormRegion {
   margin-top: 12px;
   max-width: 96%;
 }
-
