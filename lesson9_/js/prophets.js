@@ -21,6 +21,8 @@ fetch(requestURL)
       birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
       birthplace.textContent = 'Place of Birth: ' + prophets[i].birthplace;   
        
+      birthdate.setAttribute('class', 'birth');
+      birthplace.setAttribute('class', 'birthplace')
       image.setAttribute('src', prophets[i].imageurl);
       image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);   
       
@@ -30,6 +32,6 @@ fetch(requestURL)
       card.appendChild(image);      
       
       document.querySelector("div.cards").appendChild(card);
-      
+
     }
   });

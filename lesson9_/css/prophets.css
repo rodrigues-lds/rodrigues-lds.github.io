@@ -1,0 +1,71 @@
+main {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1400px;
+  box-shadow: 0 0 30px #000305;
+  background-color: #dad8d8;
+}
+
+section {
+  background-color: #b5b5bd;
+  border: solid 1px #4d4d96;
+  padding-bottom: 12px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #410969;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.birth,
+.birthplace {
+  text-align: center;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-height: 270px;
+  max-width: 220px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 0 30px #000305;
+}
+
+.cards {
+  display: grid;
+  gap: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #134355;
+  color: #f4f2ec;
+  margin-top: 50px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media only screen and (min-width: 40.5em) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
