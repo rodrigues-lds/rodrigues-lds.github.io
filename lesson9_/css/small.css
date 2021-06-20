@@ -394,6 +394,7 @@ form input.submitButton:hover {
 
 #banner {
   display: none;
+  padding-bottom: 40px;
 }
 
 .cards {
