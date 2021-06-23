@@ -4,22 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Lesson 09 - The Weather Site Home Page" />
-    <link rel="stylesheet" href="/lesson9_/css/normalize.css">
-    <link rel="stylesheet" href="/lesson9_/css/small.css">
-    <link rel="stylesheet" href="/lesson9_/css/medium.css">
-    <link rel="stylesheet" href="/lesson9_/css/large.css" />
+    <meta name="description" content="Lesson 10 - Preston Weather API" />
+    <link rel="stylesheet" href="/lesson10/css/normalize.css">
+    <link rel="stylesheet" href="/lesson10/css/small.css">
+    <link rel="stylesheet" href="/lesson10/css/medium.css">
+    <link rel="stylesheet" href="/lesson10/css/large.css" />
     <title>Weather Site Portal</title>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0T226TZ5H"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-L0T226TZ5H');
-    </script>
 </head>
 
 <body>
@@ -28,7 +18,7 @@
             <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
         </div>
 
-        <img src="/lesson9_/images/weatherlogo.png" alt="Weather Seer Logo" />
+        <img src="/lesson10/images/weatherlogo.png" alt="Weather Seer Logo" />
         <section class="heading">
             <h1>The Weather Seer</h1>
             <h2>"Check the weather and be good!"</h2>
@@ -38,8 +28,8 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="/lesson10/preston-10.html">Preston</a></li>
+            <li><a href="/lesson9_/index.html">Home</a></li>
+            <li><a class="active" href="/lesson10/preston-10.html">Preston</a></li>
             <li><a href="#">Soda Spring</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
@@ -47,17 +37,62 @@
         </ul>
     </nav>
 
-    <main id=main_town>
-        <div>
-            <h4><a href="/lesson9_/home-wireframes.html.html">Wireframe</a></h4>
-            <h2 class="containertitle">Home Page</h2>
-            <img id="banner" src="/lesson9_/images/weatherbanner.jpg" alt="Different Weather Condition">
+    <main>
+
+        <h2 class="containertitle">Preston Idaho</h2>
+        <div class="herodiv">
+            <div class="hero-ph">
+                <picture>
+                    <source media="(max-width: 647px)" srcset="/lesson10/images/smallbanner.jpg">
+                    <source media="(max-width: 959px)" srcset="/lesson10/images/mediumbanner.jpg">
+                    <img src="/lesson10/images/largebanner.jpg" alt="Beautiful sunny Day">
+                </picture>
+            </div>
+
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currently"></span></p>
+                <p>High: <span id="high"></span> °F</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+            </section>
         </div>
-        <div class="cards"></div>
+
+        <section class="fivedayforecast">
+            <h2 class="containertitle"> Five Day Forecast</h2>
+            <section class="forecast">
+                <div class="day" id="monday">
+                    <h4> Monday</h4>
+                    <hr>
+                    <p> High: 80°F<br>Low: 50°F<br>Sunny</p>
+                </div>
+                <div class="day" id="tuesday">
+                    <h4> Tuesday</h4>
+                    <hr>
+                    <p> High: 80°F<br>Low: 50°F<br>Sunny</p>
+                </div>
+                <div class="day" id="wednesday">
+                    <h4> Wedneday</h4>
+                    <hr>
+                    <p> High: 80°F<br>Low: 50°F<br>Sunny</p>
+                </div>
+                <div class="day" id="thursday">
+                    <h4> Thursday</h4>
+                    <hr>
+                    <p> High: 80°F<br>Low: 50F°<br>Sunny</p>
+                </div>
+                <div class="day" id="friday">
+                    <h4> Friday</h4>
+                    <hr>
+                    <p> High: 80°F<br>Low: 50°F<br>Sunny</p>
+                </div>
+            </section>
+        </section>
 
         <section class="article">
             <h2 class="containertitle">Article</h2>
-            <img class="articleimage" src="/lesson9_/images/surf.jpg" alt="surfing on beach">
+            <img class="articleimage" src="/lesson10/images/surf.jpg" alt="surfing on beach">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type and scrambled it to make a type specimen book. It has survived not
@@ -99,16 +134,16 @@
         <section class="contactinfocontainer">
             <h2 class="containertitle">Contact Information</h2>
             <div class="contact">
-                <img class="googlemaps" src="/lesson9_/images/maps.jpg" alt="Preston Idaho">
+                <img class="googlemaps" src="/lesson10/images/maps.jpg" alt="Preston Idaho">
                 <div class="contactcard">
                     Preston, ID 83263 - USA <br> +1 111-222-333 <br> contact@theweatherseer.com <br>
                     <div class="socialmedia">
                         <a href="http://www.facebook.com/"><img class="socialmediaicon"
-                                src="/lesson9_/images/facebook-32.png" alt="Facebook"></a>
+                                src="/lesson10/images/facebook-32.png" alt="Facebook"></a>
                         <a href="http://www.twitter.com/"><img class="socialmediaicon"
-                                src="/lesson9_/images/twitter-32.png" alt="Twitter"></a>
+                                src="/lesson10/images/twitter-32.png" alt="Twitter"></a>
                         <a href="http://www.Instagram.com/"><img class="socialmediaicon"
-                                src="/lesson9_/images/instagram-32.png" alt="Instagram"></a>
+                                src="/lesson10/images/instagram-32.png" alt="Instagram"></a>
                     </div>
                 </div>
             </div>
@@ -121,13 +156,10 @@
             The Weather Seer &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
             | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
         </div>
-        Days Since Last Visit: <span id="lastvisit"></span>
     </footer>
-
-    <script src="/lesson9_/js/script.js"></script>
-    <script src="/lesson9_/js/town.js"></script>
-    <script src="/lesson9_/js/lastvisit.js"></script>
-    <script src="/lesson9_/js/progressiveload.js"></script>
+    <script src="/lesson10/js/script.js"></script>
+    <script src="/lesson10/js/preston.js"></script>    
+    <script src="/lesson10/js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
