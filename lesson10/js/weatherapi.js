@@ -1,7 +1,7 @@
 const cityID = "5604473";
 const unit = "imperial";
 const apiKEY = "13742dc64c835fc2abcc75fb482f6836";
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unit + "&APPID=" + apiKEY;
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unit + "&APPID=" + apiKEY;
 
 fetch(apiURL)
   .then((response) => response.json())
