@@ -119,4 +119,14 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
+
+  /* Preston */
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5 {
+    max-width: max-content;
+  }
 }

@@ -445,3 +445,17 @@ form input.submitButton:hover {
 #info {
   padding: 20px;
 }
+
+/* Preston */
+.main_preston {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#temp1,
+#temp2,
+#temp3,
+#temp4,
+#temp5 {
+  font-size: 32px;
+}

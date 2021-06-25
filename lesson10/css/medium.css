@@ -26,27 +26,27 @@
   /* Home Page */
 
   #banner {
-    display: initial; 
-    max-height: 500px;     
+    display: initial;
+    max-height: 500px;
   }
 
   .cards section {
     display: grid;
-    grid-template-columns: 1fr 1fr;        
+    grid-template-columns: 1fr 1fr;
   }
 
   .cards section:nth-child(odd) img {
-    grid-column: 1;  
-    height: 75%;    
+    grid-column: 1;
+    height: 75%;
   }
 
-  .cards section:nth-child(even) img {    
-    height: 75%;    
+  .cards section:nth-child(even) img {
+    height: 75%;
   }
 
   .cards section:nth-child(odd) #info {
     grid-column: 2;
-    grid-row: 1;            
+    grid-row: 1;
   }
 
   #info {
@@ -55,4 +55,20 @@
     height: 200px;
   }
 
+  /* Preston */
+  #temp1,
+  #temp2,
+  #temp3,
+  #temp4,
+  #temp5 {
+    font-size: 28px;
+  }
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5 {
+    max-width: 70px;
+  }
 }
