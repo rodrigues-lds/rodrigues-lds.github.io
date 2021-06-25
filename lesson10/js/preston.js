@@ -1,15 +1,14 @@
 const cityID = "5604473";  // Preston
 const unit = "imperial";
 const apiKEY = "13742dc64c835fc2abcc75fb482f6836";
-const apiSummaryURL = "http://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unit + "&APPID=" + apiKEY;
+const apiSummaryURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unit + "&APPID=" + apiKEY;
 const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&units=" + unit + "&APPID=" + apiKEY;
 
 /* Summary Weather */
 fetch(apiSummaryURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);    
-        
+            
     document.getElementById('currently').textContent = jsObject.weather[0].description;;
     document.getElementById('high').textContent = Math.round(jsObject.main.temp_max);
     document.getElementById('humidity').textContent = jsObject.main.humidity;
