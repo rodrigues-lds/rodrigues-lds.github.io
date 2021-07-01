@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gallery Page" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/lesson11/css/normalize.css">
+    <link rel="stylesheet" href="/lesson11/css/small.css">
+    <link rel="stylesheet" href="/lesson11/css/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/large.css" />
+    <title>Gallery Page</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <a href="/lesson11/index.html">
+            <img src="/lesson11/images/weatherlogo.png" alt="Weather Seer Logo" />
+        </a>
+
+        <section class="heading">
+            <h1>The Weather Seer</h1>
+            <h2>"Check the weather and be good!"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson11/index.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/soda-springs.html">Soda Spring</a></li>
+            <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a class="active" href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="main_gallery">
+        <h2 class="containertitle">Weather Gallery</h2>
+        <div id="gallery_container">
+            <figure>
+                <img class="gallery_image" alt="Cloudy" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_cloudy.jpg">
+                <figcaption>A cloudy day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Cold" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_cold.jpg">
+                <figcaption>A cold day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Fall" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_fall.jpg">
+                <figcaption>A fall day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Rainy" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_rainy.jpg">
+                <figcaption>A rainy day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Snow" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_snow.jpg">
+                <figcaption>A snow day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Spring" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_spring.jpg">
+                <figcaption>A spring day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Summer" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_summer.jpg">
+                <figcaption>A summer day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Thunder" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_thunder.jpg">
+                <figcaption>A thunder over the city</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Tornado" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_tornado.jpg">
+                <figcaption>A dangerous tornado</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Fog" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_fog.jpg">
+                <figcaption>A fog day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Dry" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_dry.jpg">
+                <figcaption>A dry day</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Night" src="/lesson11/images/placeholderwide.jpg" data-src="/lesson11/images/g_night.jpg">
+                <figcaption>A nice night</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            The Weather Seer &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil | <a href="https://www.byui.edu/online">BYUI Online Learning</a>            
+        </div>        
+        Days Since Last Visit: <span id="lastvisit"></span>
+    </footer>
+
+   
+    <script src="/lesson11/js/progressiveload.js"></script>
+    <script src="/lesson11/js/script.js"></script>
+    <script src="/lesson11/js/lastvisit.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>

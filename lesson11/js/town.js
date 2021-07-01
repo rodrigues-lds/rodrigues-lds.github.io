@@ -31,7 +31,7 @@ fetch(requestURL)
         ranfaill.textContent = "Rainfall Average (year): " + towns[i].averageRainfall + " ";
 
         /* Image section */
-        image.setAttribute("src", "/lesson9_/images/" + towns[i].photo);
+        image.setAttribute("src", "/lesson11/images/" + towns[i].photo);
         image.setAttribute("alt", towns[i].name);
         info.setAttribute("id", "info");
 

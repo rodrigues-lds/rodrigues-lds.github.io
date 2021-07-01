@@ -30,6 +30,8 @@ header h2 {
 footer {
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 img {
@@ -195,7 +197,7 @@ nav ul {
 }
 
 .article {
-  background-color: #ebedee;
+  background-color: #dbdedf;
   padding-top: 10px;
   padding-bottom: 50px;
   padding-left: 50px;
@@ -301,8 +303,7 @@ img {
 
 /*Storm Page */
 
-.main_storm {
-  padding: 0px;
+.main_storm { 
   padding-bottom: 30px;
 }
 
@@ -349,6 +350,10 @@ form label.radios {
 .buttonHolder,
 .takecare {
   text-align: center;
+}
+
+.buttonHolder{
+  padding-bottom: 50px;
 }
 
 form input.submitButton {
@@ -446,8 +451,8 @@ form input.submitButton:hover {
   padding: 20px;
 }
 
-/* Preston */
-.main_preston {
+/* Town Pages */
+.main_city {
   max-width: 1200px;
   margin: auto;
 }
@@ -459,4 +464,20 @@ form input.submitButton:hover {
 #temp5 {
   font-size: 32px;
   padding-bottom: 30px;
+}
+
+.upcomingEvents {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 10px solid #134355;
+  box-shadow: 10px 20px 20px rgb(51, 51, 51); 
+  text-align: center;  
+}
+
+.upcomingEvents hr {
+  background-color: #be2623;  
+  height: 2.5px;
+  width: 90%;
+  margin: auto;
 }

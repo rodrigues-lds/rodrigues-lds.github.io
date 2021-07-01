@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Soda Springs Weather Page" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/lesson11/css/normalize.css">
+    <link rel="stylesheet" href="/lesson11/css/small.css">
+    <link rel="stylesheet" href="/lesson11/css/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/large.css" />
+    <title>Soda Springs Town Page</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <a href="/lesson11/index.html">
+            <img src="/lesson11/images/weatherlogo.png" alt="Weather Seer Logo" />
+        </a>
+
+        <section class="heading">
+            <h1>The Weather Seer</h1>
+            <h2>"Check the weather and be good!"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson11/index.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a class="active" href="#">Soda Spring</a></li>
+            <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="main_city">
+
+        <h2 class="containertitle">Soda Springs Idaho</h2>
+        <div class="herodiv">
+            <div class="hero-ph">
+                <picture>
+                    <source media="(max-width: 647px)" srcset="/lesson11/images/sodaSmallBanner.jpg">
+                    <source media="(max-width: 959px)" srcset="/lesson11/images/sodaMediumBanner.jpg">
+                    <img src="/lesson11/images/sodaLargeBanner.jpg" alt="Beautiful sunny day">
+                </picture>
+            </div>
+
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currently"></span></p>
+                <p>High: <span id="high"></span> °F</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+            </section>
+        </div>
+
+        <section class="fivedayforecast">
+            <h2 class="containertitle"> Five Day Forecast</h2>
+
+            <section class="forecast">
+                <div class="day" id="monday">
+                    <h4><span id="day1">...</span></h4>
+                    <hr>
+                    <img id="img1" src="#" alt="...">
+                    <div id="temp1"></div>
+                </div>
+                <div class="day" id="tuesday">
+                    <h4><span id="day2">...</span></h4>
+                    <hr>
+                    <img id="img2" src="#" alt="...">
+                    <div id="temp2"></div>
+                </div>
+                <div class="day" id="wednesday">
+                    <h4><span id="day3">...</span></h4>
+                    <hr>
+                    <img id="img3" src="#" alt="...">
+                    <div id="temp3"></div>
+                </div>
+                <div class="day" id="thursday">
+                    <h4><span id="day4">...</span></h4>
+                    <hr>
+                    <img id="img4" src="#" alt="...">
+                    <div id="temp4"></div>
+                </div>
+                <div class="day" id="friday">
+                    <h4><span id="day5">...</span></h4>
+                    <hr>
+                    <img id="img5" src="#" alt="...">
+                    <div id="temp5"></div>
+                </div>
+            </section>
+        </section>
+
+        <div class="upcomingEvents">
+            <h2>Upcoming Events:</h2>
+            <hr>
+        </div>
+
+        <section class="article">
+            <h2 class="containertitle">Picturing History</h2>
+            <img class="articleimage" src="/lesson11/images/sodasprings.jpg" alt="The city of Soda Springs">
+            <p>Located in Caribou County of southeastern Idaho, the little town of Soda Springs was an unusual but
+                welcome stop on the Oregon Trail. Travelers enjoyed bathing in the natural mineral springs that bubble
+                out of the earth there. The site became a landmark along the trail and a first destination to travelers
+                in general... In the early 1870s, the Mormon settlers built a cabin to be a summer home for President
+                Young at the site he established. He set up the wide streets and square blocks of the settlement. </p>
+
+            <p>An interpretive panel and marker at the site of this home explains that this second settlement was part
+                of President Young’s grand vision of a State of Deseret, in which “self-sustaining colonies at strategic
+                economic and defensive locations” would be established throughout Deseret... <a href="https://www.deseret.com/2017/8/30/20618498/picturing-history-soda-springs-idaho#this-view-shows-the-captive-geyser-at-soda-springs-idaho-a-town-established-by-president-brigham-young"
+                    target="_blank"> read
+                    more </a></p>
+        </section>
+
+        <section class="contactinfocontainer">
+            <h2 class="containertitle">Contact Information</h2>
+            <div class="contact">
+                <img class="googlemaps" src="/lesson11/images/maps.jpg" alt="Weather Seer Idaho">
+                <div class="contactcard">
+                    Weather Seer, ID 83263 - USA <br> +1 111-222-333 <br> contact@weatherseer.com <br>
+                    <div class="socialmedia">
+                        <a href="http://www.facebook.com/"><img class="socialmediaicon"
+                                src="/lesson11/images/facebook-32.png" alt="Facebook"></a>
+                        <a href="http://www.twitter.com/"><img class="socialmediaicon"
+                                src="/lesson11/images/twitter-32.png" alt="Twitter"></a>
+                        <a href="http://www.Instagram.com/"><img class="socialmediaicon"
+                                src="/lesson11/images/instagram-32.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            The Weather Seer &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+            Weather information licensed by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> | 
+            Article info licensed by <a href="https://www.deseretnews.com/" target="_blank">Deseret News</a><br>
+        </div>
+        Days Since Last Visit: <span id="lastvisit"></span>
+    </footer>
+    <script src="/lesson11/js/script.js"></script>
+    <script src="/lesson11/js/lastvisit.js"></script>
+    <script src="/lesson11/js/soda-springs.js"></script>
+    <script src="/lesson11/js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>

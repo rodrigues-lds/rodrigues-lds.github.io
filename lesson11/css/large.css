@@ -1,0 +1,136 @@
+@media only screen and (min-width: 60em) {
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  header img {
+    float: left;
+    max-width: 160px;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  main img {
+    max-width: 100%;
+    position: relative;
+  }
+
+  .heading {
+    margin-left: 12%;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .herodiv {
+    position: relative;
+    width: 100%;
+    height: 700px;
+  }
+
+  .weathersummary {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    box-shadow: 20px 20px 25px rgb(51, 51, 51);
+    opacity: 90%;
+  }
+
+  .hero-ph {
+    width: 100%;
+    height: 100%;
+  }
+
+  .articleimage {
+    max-width: 350px;
+  }
+
+  .contact {
+    display: flex;
+  }
+
+  .contactcard {
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+
+  .googlemaps {
+    max-width: 70%;
+  }
+
+  /* Gallery */
+
+  #gallery_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 18px;
+  }
+
+  #gallery_container figure:hover {
+    box-shadow: 0 0 50px #000305;
+  }
+
+  /*Storm Page */
+
+  form {
+    max-width: 1200px;
+  }
+
+  form fieldset {
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  /* Home Page */
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cards section {
+    display: block;
+  }
+
+  #main_town {
+    margin: 0 auto;
+    max-width: fit-content;
+    max-width: 1200px;
+  }
+
+  #info {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* Town Pages */
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5 {
+    max-width: max-content;
+  }
+
+  .upcomingEvents {
+    width: 50%;
+  }
+}
