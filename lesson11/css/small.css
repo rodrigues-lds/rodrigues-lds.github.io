@@ -216,6 +216,7 @@ nav ul {
   padding-left: 30px;
   padding-right: 30px;
   background-color: #be2623;
+  display: none;
 }
 
 .contactinfocontainer {
