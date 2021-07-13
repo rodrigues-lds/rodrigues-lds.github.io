@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Chamber of commerce website for the city of São Paulo, Brazil" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css" />
+    <title>E-SP Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <a href="#">
+            <img src="/lesson11/images/weatherlogo.png" alt="Weather Seer Logo" />
+        </a>
+
+        <section class="heading">
+            <h1>The Chambers S-SP</h1>
+            <h2>"Software Project Business in Sao Paulo, Brazil"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="/final/city.html">City</a></li>
+            <li><a href="#">Join</a></li>            
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id=main_town>
+        <div>
+            <h2 class="containertitle">Home Page</h2>
+            <img id="banner" src="/lesson11/images/weatherbanner.jpg" alt="Different Weather Condition">
+        </div>
+        <div class="cards"></div>
+
+        <section class="article">
+            <h2 class="containertitle">The Purpose of this Portal</h2>
+            <img class="articleimage" src="/lesson11/images/eduardoar.jpg" alt="Eduardo Rodrigues is the author of this work">
+            <p>The Weather Seer is a webpage service created by Eduardo Almeida Rodrigues for Brigham Young University,
+                class WDD230. The weather forecast service portal will be published at www.theweatherseer.com available
+                and checked its availability at www.hostgator.com. It provides a good weather forecast service for anyone who is
+                interested in knowing what will happen to the weather in the coming hours and days. It aims to be a main
+                portal to help people plan their work, events and so on, without being affected by the climatic
+                conditions of their regions, specially for people from Preston, Soda Springs, and Fish Haven. 
+                For education purposes, this website consumes services and contents provided and licensed by
+                <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> and 
+                <a href="https://www.deseret.com/" target="_blank">Deseret News</a>. People who wants to plan activities and events outsite of their houses as
+                well as those professionals who depends on good weather to perform their work are welcome. Additionally,
+                anyone interested in checking the weather conditions in the mentioned cities.</p>            
+        </section>
+
+        <section class="contactinfocontainer">
+            <h2 class="containertitle">Contact Information</h2>
+            <div class="contact">
+                <img class="googlemaps" src="/lesson11/images/maps.jpg" alt="Weather Seer Idaho">
+                <div class="contactcard">
+                    Weather Seer, ID 83263 - USA <br> +1 111-222-333 <br> contact@weatherseer.com <br>
+                    <div class="socialmedia">
+                        <a href="http://www.facebook.com/"><img class="socialmediaicon" 
+                                src="/lesson11/images/facebook-32.png" alt="Facebook"></a>
+                        <a href="http://www.twitter.com/"><img class="socialmediaicon"
+                                src="/lesson11/images/twitter-32.png" alt="Twitter"></a>
+                        <a href="http://www.Instagram.com/"><img class="socialmediaicon"
+                                src="/lesson11/images/instagram-32.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            The Chambers E-SP &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+         Days Since Last Visit: <span id="lastvisit"></span>
+    </footer>
+
+    <script src="/final/js/script.js"></script>
+    <script src="/final/js/town.js"></script>
+    <script src="/final/js/lastvisit.js"></script>
+    <script src="/final/js/progressiveload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The city of São Paulo, Brazil" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css" />
+    <title>E-SP Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <a href="#">
+            <img src="/lesson11/images/weatherlogo.png" alt="Weather Seer Logo" />
+        </a>
+
+        <section class="heading">
+            <h1>The Chambers S-SP</h1>
+            <h2>"Software Project Business in Sao Paulo, Brazil"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/final/index.html">Home</a></li>
+            <li><a class="active" href="/final/city.html">City</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id=main_town>
+        <h2 class="containertitle">São Paulo, Brazil</h2>
+        <div class="herodiv">
+            <div class="hero-ph">
+                <picture>
+                    <source media="(max-width: 647px)" srcset="/final/images/saopaulo_small_banner.jpg">
+                    <source media="(max-width: 959px)" srcset="/final/images/saopaulo_medium_banner.jpg">
+                    <img src="/final/images/saopaulo_large_banner.jpg"
+                        alt="Sao Paulo the 3rd biggest city in the world">
+                </picture>
+            </div>
+
+            <section class="demographicinfo">
+                <h2>Demographic Info</h2>
+                <p>Founded: 1554</p>
+                <p>Population: 12,325,232</p>
+                <p>Area: 1,521.11 km2</p>
+                <p>Density: 8,005.25/km2</p>
+                <p>Elevation: 2,493.4 ft</p>
+            </section>
+        </div>
+
+        <section class="article">
+            <h2 class="containertitle">About São Paulo</h2>
+            <img class="articleimage" alt="The city of Sao Paulo" src="/final/images/placeholderwide.jpg"
+                data-src="/final/images/saopaulocity.jpg">
+            <p>São Paulo is a multifaceted metropolis. At the same time that it is the most important economic center in
+                Brazil, it is the capital of culture in Latin America, offering unparalleled leisure, knowledge and
+                entertainment. A typically urban metropolis, covered with a vast green area. An avant-garde and
+                innovative city, which preserves in architecture, arts and gastronomy a past composed by the union of
+                more than 70 nationalities.</p>
+
+            <p> And, while preserving traditions, it does not allow itself to be exceeded. Antenate is the right word to
+                describe it. To get to know it better, you just need two things: an open mind and a willingness to dive
+                head first into this city that never sleeps ... São Paulo is the main destination for business tourism
+                in Brazil. In 2014, according to International Congress and Convention Association (ICCA), the capital
+                was the main destination of international meetings occured in Brazil. Inland and seaside cities stand
+                out for their economic and leisure activities...<a
+                    href="https://www.en.investe.sp.gov.br/why-sao-paulo/" target="_blank">read more </a></p>
+        </section>
+
+
+        <div class="upcomingEvents">
+            <h2>Upcoming Events:</h2>
+            <hr>
+            <section>
+                <div>
+                    <p>Jul 14: BRAZ-TESOL International Conference</p>
+                    <p>Aug 09: Business Aviation in Latan</p>
+                    <p>Aug 12: ExpoPostos & Conveniencia</p>
+                    <p><a href="https://10times.com/saopaulo-br" target="_blank">check more </a></p>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <h2 class="containertitle">Places to Visit in São Paulo</h2>
+        <div id="gallery_container">
+            <figure>
+                <img class="gallery_image" alt="Masp Museum" src="/final/images/placeholderwide.jpg"
+                    data-src="/final/images/saopaulo_masp.jpg">
+                <figcaption>MASP Museum</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Historical Places" src="/final/images/placeholderwide.jpg"
+                    data-src="/final/images/saopaulo_historical.jpg">
+                <figcaption>Historical Places</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Zoo" src="/final/images/placeholderwide.jpg"
+                    data-src="/final/images/saopaulo_zoo.jpg">
+                <figcaption>São Paulo Zoo</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Architectonic Buildings" src="/final/images/placeholderwide.jpg"
+                    data-src="/final/images/saopaulo_oscarniemyer.jpg">
+                <figcaption>Buildings by Niemier</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Business Towers" src="/final/images/placeholderwide.jpg"
+                    data-src="/final/images/saopaulo_towerbusiness.jpg">
+                <figcaption>The Business Towers</figcaption>
+            </figure>
+
+            <figure>
+                <img class="gallery_image" alt="Avenida Paulista" src="/final/images/placeholderwide.jpg"
+                    data-src="/final/images/saopaulo_paulistaave.jpg">
+                <figcaption>Paulista Avenue</figcaption>
+            </figure>
+        </div>
+
+        <section class="contactinfocontainer">
+            <h2 class="containertitle">São Paulo Map</h2>
+            <div class="contact">
+                <div class="mapgoogle">
+                    <div class="gmap_canvas"><iframe width="800" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=s%C3%A3o%20Paulo&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            The Chambers E-SP &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+        Days Since Last Visit: <span id="lastvisit"></span>
+    </footer>
+
+    <script src="/final/js/script.js"></script>
+    <script src="/final/js/town.js"></script>
+    <script src="/final/js/lastvisit.js"></script>
+    <script src="/final/js/progressiveload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>
