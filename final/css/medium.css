@@ -34,7 +34,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
+  
   .cards section:nth-child(odd) img {
     grid-column: 1;
     height: 75%;
@@ -50,9 +50,9 @@
   }
 
   #info {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: 200px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    height: 300px;
   }
 
   /* Town Pages */
@@ -75,4 +75,14 @@
   .upcomingEvents {
     width: 60%;
   }
+
+  /* Join */
+  .membership {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .membership section {
+    display: block;
+  }
+ 
 }

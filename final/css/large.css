@@ -7,7 +7,7 @@
     flex: 1 1 100%;
   }
 
-  header img {    
+  header img {
     max-width: 120px;
   }
 
@@ -21,7 +21,7 @@
     max-width: 100%;
     position: relative;
   }
-  
+
   .navigation {
     display: flex;
   }
@@ -41,7 +41,8 @@
     height: 500px;
   }
 
-  .weathersummary, .demographicinfo {
+  .weathersummary,
+  .demographicinfo {
     position: absolute;
     top: 50px;
     right: 50px;
@@ -131,5 +132,13 @@
     width: 50%;
   }
 
-  
+  /* Join */
+
+  .membership {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .membership section {
+    display: block;
+  }
 }

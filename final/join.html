@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Join the Software Business in Sao Paulo, Brazil" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css" />
+    <title>Join Us</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <a href="#">
+            <img src="/lesson11/images/weatherlogo.png" alt="Weather Seer Logo" />
+        </a>
+
+        <section class="heading">
+            <h1>The Chambers S-SP</h1>
+            <h2>"Software Project Business in Sao Paulo, Brazil"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/final/index.html">Home</a></li>
+            <li><a href="/final/city.html">City</a></li>
+            <li><a class="active" href="#">Join</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id = main_town>
+        <h2 class="containertitle">Join Us!</h2>
+
+        <div class="membership">
+            <section>
+                <img src="/final/images/goldbadge.png" alt="Golden membership">
+                <div id="info">
+                    <h2>Gold</h2>
+                    <h4>$1000.00</h4>
+                    <p>Directory Listings &#10003</p>
+                    <p>Special Trainings &#10003</p>
+                    <p>Media Posts &#10003</p>   
+                    <p>Luncheon Tickets &#10003</p>  
+                    <p>Sponsorship &#10003</p>
+                    <p>Advertising &#10003</p>                 
+                </div>                
+            </section>
+            <section>
+                <img src="/final/images/silverbadge.png" alt="Silver membership">
+                <div id="info">
+                    <h2>Silver</h2>
+                    <h4>$400.00</h4>
+                    <p>Directory Listings &#10003</p>
+                    <p>Special Trainings &#10003</p>
+                    <p>Media Posts &#10003</p>   
+                    <p>Luncheon Tickets &#10003</p>  
+                    <p id="gray">Sponsorship</p> 
+                    <p id="gray">Advertising</p>                  
+                </div>                
+            </section>
+            <section>
+                <img src="/final/images/bronzebadge.png" alt="Bronze membership">
+                <div id="info">
+                    <h2>Bronze</h2>
+                    <h4>$200.00</h4>
+                    <p>Directory Listings &#10003</p>
+                    <p>Special Trainings &#10003</p>
+                    <p id="gray">Media Posts</p>   
+                    <p id="gray">Luncheon Tickets</p>  
+                    <p id="gray">Sponsorship</p> 
+                    <p id="gray">Advertising</p>                
+                </div>                
+            </section> 
+            <section>
+                <img src="/final/images/nonprofitbadge.png" alt="Non-profit membership">
+                <div id="info">
+                    <h2>Non-profit</h2>
+                    <h4>$100.00</h4>
+                    <p>Directory Listings &#10003</p>
+                    <p id="gray">Special Trainings</p>
+                    <p id="gray">Media Posts</p>   
+                    <p id="gray">Luncheon Tickets</p>  
+                    <p id="gray">Sponsorship</p> 
+                    <p id="gray">Advertising</p>                     
+                </div>                
+            </section>            
+        </div>
+
+       
+
+        <form method="GET" action="thanks.html">
+
+            <fieldset>
+                <legend>About You</legend>
+                <label class="aboutyou">
+                    First Name *: <input type="text" name="firstname" title="Please write at least 5 letters for your first name" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+                </label>
+                <label class="aboutyou">
+                    Last Name *: <input type="text" name="lastname" title="Please write at least 5 letters for your last name" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+                </label>
+                <label class="aboutyou">
+                    Title: <input type="text" name="title" title="Please write at least 5 letters for your title" pattern="^[a-zA-Z\s\-\.]{5,}$">
+                </label>
+                <label class="aboutyou">
+                    Email *: <input type="email" name="email" placeholder="joinus@chamberse-sp.com">
+                </label>
+                <label class="aboutyou">
+                    Cell Phone: <input type="tel" name="cellphonenumber" title="Please insert your cell phone number" placeholder="123-456-7890">
+                </label>                
+            </fieldset>
+
+            <fieldset>
+                <legend>Professional Info</legend>
+                <label class="aboutyou">
+                    Business Name *: <input type="text" name="businessname" title="Please write at least 5 letters for your business name" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+                </label>
+                <label class="aboutyou">
+                    Business Address: <input type="text" name="address" title="Please write at least 5 letters for your address">
+                </label>
+                <label class="aboutyou">
+                    Business Website: <input type="url" name="website" title="Please write at least 5 letters for your website" placeholder="https://example.com" pattern="https://.*" size="30">
+                </label>
+                <label class="businessdescription">Business Description:                
+                    <textarea name="description" id="comments" title="Add your business description"> </textarea>
+                </label>
+            </fieldset>            
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>Please, choose your membership level:</div>
+                <label><input type="radio" name="membershipeLevel" value="gold" checked>
+                    <span class="optionbutton">Gold ($1000)</span>
+                </label>
+                <label><input type="radio" name="membershipeLevel" value="silver">
+                    <span class="optionbutton">Silver ($400)</span>
+                </label>
+                <label><input type="radio" name="membershipeLevel" value="bronze">
+                    <span class="optionbutton">Bronze ($200)</span>
+                </label>
+                <label><input type="radio" name="membershipeLevel" value="nonprofit">
+                    <span class="optionbutton">Non-profit ($100)</span>
+                </label>
+                <label class="comentario">Comments:                
+                    <textarea name="comments" id="comments" title="Add additional comment"> </textarea>
+                </label>
+            </fieldset>
+            
+            <div class="buttonHolder"> 
+                <input class="joinus" type="submit" value="Join Us!">
+            </div>
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <div>
+            The Chambers E-SP &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+        Days Since Last Visit: <span id="lastvisit"></span>
+    </footer>
+
+    <script src="/final/js/script.js"></script>    
+    <script src="/final/js/lastvisit.js"></script>
+    <script src="/final/js/progressiveload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>
