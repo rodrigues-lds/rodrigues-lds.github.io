@@ -317,7 +317,7 @@ form {
 
 form fieldset {
   margin: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   border: 1px solid #134355;
   border-radius: 10px;
   padding-bottom: 60px;
@@ -354,7 +354,8 @@ form label.radios {
 }
 
 .buttonHolder,
-.takecare {
+.takecare,
+.buttonsend {
   text-align: center;
 }
 
@@ -362,7 +363,11 @@ form label.radios {
   padding-bottom: 50px;
 }
 
-form input.submitButton, input.joinus {
+.buttonsend{
+  padding-bottom: 5px;
+}
+
+form input.submitButton, input.joinus, input.sendmessage {
   border: none;
   font-size: 22px;
   border-radius: 18px;
@@ -377,9 +382,14 @@ form input.submitButton:hover{
   background-color: #be2623;
 }
 
-form input.joinus:hover {
+form input.joinus:hover, input.sendmessage:hover {
   background-color: #126E82;
 }
+
+form input.sendmessage {
+  margin-top: 50px;  
+}
+
 
 #comments, .businessdescription {
   height: 100px;
@@ -516,3 +526,13 @@ form input.joinus:hover {
 #gray{
   color: #b6adad;
 }
+
+#persona{
+  padding-bottom: 50px;
+}
+
+#persona1, #persona2, #persona3{  
+  max-width: 250px;
+}
+
+

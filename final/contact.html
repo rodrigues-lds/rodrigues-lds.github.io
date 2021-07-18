@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact the S-SP" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/final/css/normalize.css">
+    <link rel="stylesheet" href="/final/css/small.css">
+    <link rel="stylesheet" href="/final/css/medium.css">
+    <link rel="stylesheet" href="/final/css/large.css" />
+    <title>Contact US</title>
+</head>
+
+<body>
+    <header>
+        <div id="advertising">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <a href="#">
+            <img src="/lesson11/images/weatherlogo.png" alt="Weather Seer Logo" />
+        </a>
+
+        <section class="heading">
+            <h1>The Chambers S-SP</h1>
+            <h2>"Software Project Business in Sao Paulo, Brazil"</h2>
+        </section>
+    </header>
+    <hr>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/final/index.html">Home</a></li>
+            <li><a href="/final/city.html">City</a></li>
+            <li><a href="/final/join.html">Join</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a class="active" href="/final/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main_city">
+
+
+        <h2 class="containertitle">Board Directors</h2>
+        <hr><br>
+
+        <h4>Eduardo Rodrigues - CEO</h4>
+        <img id="persona1" src="/final/images/eduardo.png" alt="Eduardo Almeida Rodrigues">
+        <p id=persona>Eduardo Rodrigues is an engineer, has been acting as a Project Manager and has dedicated his
+            professional career in software development, software quality assurance, robotic automation (RPA/RDA), and
+            R&D projects to small, medium and large organizations. He is always in search of innovations and best
+            practices of software development and testing. He holds a bachelor’s degree in Computer Engineering from FAI
+            University, post graduation degree in Software Engineering and post graduation degree in Telecommunications
+            Engineering, both from USJT University.</p>
+
+        <h4>John Mario - IT Director</h4>
+        <img id="persona2" src="/final/images/john.png" alt="John Mario">
+        <p id=persona>John Mario is computer scientist, has been acting as a Director for IT projects for software
+            development, to small, medium, and large organizations. He loves technology and he want to help all
+            companies in São Paulo, Brazil to succeed. He has been working for Chambers S-SP for over 15 years. He holds
+            a bachelor’s degree in Computer Science from Brigham Young University, MBA degree in Software Engineering
+            and master’s degree in Nuclear Engineering, both from Oxford University. He loves playing soccer with his
+            brazilian friends every saturday morning.</p>
+
+        <h4>Mary May - Sales Manager</h4>
+        <img id="persona3" src="/final/images/mary.png" alt="Mary May">
+        <p id=persona>Mary May is one of the smartest people in São Paulo, has been acting as a Sale Manager for IT
+            projects to small, medium, and large organizations. She joined the Chambers S-SP
+            board directors in the last years. She loves interacting with others and helping other companies in its
+            business has helped the city of Sao Paulo to get more money. She has been working for Chambers S-SP for over
+            10 years. She holds a bachelor’s degree in Business Administration from Brigham Young University, master’s
+            degree in People Management, and PhD in International Business both from Harvard University. </p>
+
+
+        <hr>
+        <h2 class="containertitle">Contact Us!</h2>
+
+
+        <form method="GET" action="sentmessage.html">
+            <fieldset>
+                <legend>Professional Info</legend>
+                <label class="aboutyou">
+                    Name *: <input type="text" name="name" title="Please write at least 5 letters for your name"
+                        pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+                </label>
+                <label class="aboutyou">
+                    Phone Phone: <input type="tel" name="phonenumber" title="Please insert your phone number"
+                        placeholder="123-456-7890">
+                </label>
+                <label class="aboutyou">
+                    Email *: <input type="email" name="email" placeholder="e-mail@chamberse-sp.com" required>
+                </label>
+                <label class="businessdescription">Comment *:
+                    <textarea name="description" id="comments" rows="5" placeholder="Insert your message here"
+                        required></textarea>
+                </label>
+
+                <div class="buttonsend">
+                    <input class="sendmessage" type="submit" value="Send Message">
+                </div>
+            </fieldset>
+        </form>
+
+        <section class="contactinfocontainer">
+            <h2 class="containertitle">Contact Information</h2>
+            <div class="contact">
+                <div class="googlemaps">
+                    <div class="gmap_canvas"><iframe width="700" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=S%C3%A3o%20Paulo,%20Brazil%20city&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                    </div>
+                </div>
+
+                <div class="contactcard">
+                    <h3>S-SP Chambers</h3>
+                    São Paulo, Brazil <br> +55 11 111-222-333 <br> contact@e-sp.com.br<br>
+                    <div class="socialmedia">
+                        <a href="http://www.facebook.com/"><img class="socialmediaicon"
+                                src="/final/images/facebook-32.png" alt="Facebook"></a>
+                        <a href="http://www.twitter.com/"><img class="socialmediaicon"
+                                src="/final/images/twitter-32.png" alt="Twitter"></a>
+                        <a href="http://www.Instagram.com/"><img class="socialmediaicon"
+                                src="/final/images/instagram-32.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            The Chambers E-SP &copy;<span id="copyright"></span> | <span id="dates"></span> | Eduardo Rodrigues | Brazil
+            | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+        Days Since Last Visit: <span id="lastvisit"></span>
+    </footer>
+
+    <script src="/final/js/script.js"></script>
+    <script src="/final/js/town.js"></script>
+    <script src="/final/js/lastvisit.js"></script>
+    <script src="/final/js/progressiveload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Raleway', 'Oxygen']
+            }
+        });
+    </script>
+</body>
+
+</html>

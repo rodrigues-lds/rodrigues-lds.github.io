@@ -85,4 +85,16 @@
     display: block;
   }
  
+
+  #persona1, #persona3{
+    float: left;
+    max-width: 150px;
+    
+  }
+  
+  #persona2{
+    float: right;
+    max-width: 150px;
+  }
+
 }

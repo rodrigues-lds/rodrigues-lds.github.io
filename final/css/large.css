@@ -141,4 +141,12 @@
   .membership section {
     display: block;
   }
+
+  .mapgoogle{
+    max-width: 90%;   
+    
+  }
+
+  
+  
 }
